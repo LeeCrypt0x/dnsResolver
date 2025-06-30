@@ -16,11 +16,11 @@ For each word in the wordlist, the script tries to resolve the corresponding sub
 1. Clone the repository (if applicable) or download the 'dnsResolver.py' script.
 
 2. Prepare a wordlist with the subdomains you want to test, for example:
-www
-ftp
-blog
-admin
-mail
+www,
+ftp,
+blog,
+admin,
+mail.
 
 3. Run the script passing the target domain and the path to the wordlist:
 ```bash

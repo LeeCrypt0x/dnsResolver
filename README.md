@@ -4,7 +4,7 @@
 1. The target domain (ex: 'example.com')
 2. A wordlist containing possible subdomains (ex: 'wordlist.txt')
 
-For each word in the wordlist, the script tries to resolve the subdomain '<word>.<domain>' using the 'socket.getaddrinfo' function. If the subdomain exists and can be resolved, the script prints the subdomain name along with its IP address. Otherwise, it silently ignores it.
+For each word in the wordlist, the script tries to resolve the corresponding subdomain (ex: word.domain.com) using the socket.getaddrinfo function. If the subdomain exists and can be resolved, the script prints the subdomain name along with its IP address. Otherwise, it silently ignores it.
 
 ## Requirements
 

@@ -25,3 +25,8 @@ mail
 3. Run the script passing the target domain and the path to the wordlist:
 ```bash
 python3 dnsResolver.py example.com wordlist.txt
+
+Example output:
+www.example.com - 93.184.216.34
+mail.example.com - 93.184.216.35
+
